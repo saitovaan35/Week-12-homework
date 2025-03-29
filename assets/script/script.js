@@ -38,19 +38,6 @@ console.log("Текст с изменённой первой буквой:\n", m
 
 
 
-// 1. Создаём строку с алфавитом
-const alphabet = "abcdefghijklmnopqrstuvwxyz";
 
-// 2. Генерируем случайное слово из 4 букв
-let randomWord = "";
-for (let i = 0; i < 4; i++) {
-    // Получаем случайный индекс
-    let randomIndex = Math.floor(Math.random() * alphabet.length);
-    // Добавляем случайную букву к слову
-    randomWord += alphabet[randomIndex];
-}
-
-// 3. Выводим результат
-console.log("Случайное слово:", randomWord);
 
 
